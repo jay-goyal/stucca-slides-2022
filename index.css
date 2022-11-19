@@ -296,9 +296,11 @@
 @keyframes gold-line-in {
   0% {
     width: 0;
+    transform: scaleX(1.1);
   }
   100% {
     width: 200px;
+    transform: scaleX(1.3);
   }
 }
 

@@ -7,34 +7,9 @@ let stuccaActive = 0;
 
 const stuccans = [
   {
-    depName: "President, Student Union",
-    coord: "Ashirwad Karande",
-    imgLink: "./img/ashirwad.jpg",
-  },
-  {
-    depName: "General Secretary, Student Union",
-    coord: "Naman Jalan",
-    imgLink: "./img/naman.jpg",
-  },
-  {
-    depName: "Department of Controls",
-    coord: "Pranav Dangi",
-    imgLink: "./img/pranav.jpg",
-  },
-  {
-    depName: "Department of Sponsorship and Marketing",
-    coord: "Karishma K",
-    imgLink: "./img/karishma.jpg",
-  },
-  {
     depName: "Department of Visual Media",
     coord: "Anshal Shukla",
     imgLink: "./img/anshal.jpg",
-  },
-  {
-    depName: "Department of Reception and Accommodation",
-    coord: "Angel Maria Baby",
-    imgLink: "./img/angel.jpg",
   },
   {
     depName: "Department of Art, Design and Publicity",
@@ -45,6 +20,31 @@ const stuccans = [
     depName: "Department of Publications and Correspondence",
     coord: "Madhav Gupta",
     imgLink: "./img/madhav.jpg",
+  },
+  {
+    depName: "Department of Controls",
+    coord: "Pranav Dangi",
+    imgLink: "./img/pranav.jpg",
+  },
+  {
+    depName: "Department of Reception and Accommodation",
+    coord: "Angel Maria Baby",
+    imgLink: "./img/angel.jpg",
+  },
+  {
+    depName: "Department of Sponsorship and Marketing",
+    coord: "Karishma K",
+    imgLink: "./img/karishma.jpg",
+  },
+  {
+    depName: "General Secretary, Student Union",
+    coord: "Naman Jalan",
+    imgLink: "./img/naman.jpg",
+  },
+  {
+    depName: "President, Student Union",
+    coord: "Ashirwad Karande",
+    imgLink: "./img/ashirwad.jpg",
   },
 ];
 
