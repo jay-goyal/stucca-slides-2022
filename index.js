@@ -8,7 +8,7 @@ let stuccaActive = 0;
 const stuccans = [
   {
     depName: "President, Student Union",
-    coord: "Ashirwad Kanade",
+    coord: "Ashirwad Karande",
     imgLink: "./img/ashirwad.jpg",
   },
   {
@@ -65,7 +65,7 @@ setStuccans = (i) => {
     everything.forEach((elem) => {
       elem.classList.add("elem-in");
     });
-  }, 1500);
+  }, 1400);
   setTimeout(() => {
     everything.forEach((elem) => {
       elem.classList.remove("elem-in");
