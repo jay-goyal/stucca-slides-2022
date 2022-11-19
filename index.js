@@ -2,7 +2,7 @@ const imageCont = document.querySelector(".image");
 const nameCont = document.querySelector(".name");
 const depCont = document.querySelector(".department");
 const lines = document.querySelectorAll(".line");
-const everything = document.querySelectorAll(".slide > *");
+const everything = document.querySelectorAll(".slide *");
 let stuccaActive = 0;
 
 const stuccans = [
@@ -70,7 +70,7 @@ setStuccans = (i) => {
     everything.forEach((elem) => {
       elem.classList.remove("elem-in");
     });
-  }, 3000);
+  }, 5000);
 };
 
 window.addEventListener("keyup", (evt) => {
