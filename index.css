@@ -36,7 +36,7 @@
 }
 
 .image.elem-in img {
-  animation: image-in 1500ms ease;
+  animation: image-in 2600ms ease;
 }
 
 .image::after {
@@ -51,7 +51,7 @@
 }
 
 .image.elem-in::after {
-  animation: image-after-in 1500ms ease;
+  animation: image-after-in 2500ms ease;
 }
 
 .image::before {
@@ -66,7 +66,7 @@
 }
 
 .image.elem-in::before {
-  animation: image-before-in 1500ms ease;
+  animation: image-before-in 2500ms ease;
 }
 
 .text {
@@ -129,6 +129,17 @@
   z-index: 4;
 }
 
+.elem-in#line-1 {
+  animation: line-1-in 1500ms ease;
+}
+
+.elem-in#line-2 {
+  animation: line-2-in 1500ms ease;
+}
+
+.elem-in#line-3 {
+  animation: line-3-in 1500ms ease;
+}
 .line-goaway#line-1 {
   animation: line-1-go-away 1500ms ease;
 }
@@ -180,6 +191,50 @@
   100% {
     top: 50%;
     transform: translateY(-50%);
+  }
+}
+
+@keyframes line-1-in {
+  0% {
+    right: 100%;
+    background: transparent;
+  }
+  99% {
+    background: transparent;
+  }
+  100% {
+    right: 269px;
+    background: black;
+  }
+}
+
+@keyframes line-2-in {
+  0% {
+    right: 100%;
+    background: transparent;
+  }
+  99% {
+    background: transparent;
+  }
+  100% {
+    right: 93px;
+    background: black;
+  }
+}
+
+@keyframes line-3-in {
+  0% {
+    left: 100%;
+    top: 120%;
+    background: transparent;
+  }
+  99% {
+    background: transparent;
+  }
+  100% {
+    left: 680px;
+    top: 100%;
+    background: black;
   }
 }
 
