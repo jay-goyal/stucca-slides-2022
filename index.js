@@ -52,9 +52,6 @@ setStuccans = (i) => {
   lines.forEach((line) => {
     line.classList.add("line-goaway");
   });
-  everything.forEach((elem) => {
-    elem.classList.remove("elem-in");
-  });
   setTimeout(() => {
     lines.forEach((line) => {
       line.classList.remove("line-goaway");
@@ -69,6 +66,11 @@ setStuccans = (i) => {
       elem.classList.add("elem-in");
     });
   }, 1500);
+  setTimeout(() => {
+    everything.forEach((elem) => {
+      elem.classList.remove("elem-in");
+    });
+  }, 3000);
 };
 
 window.addEventListener("keyup", (evt) => {

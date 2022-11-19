@@ -103,6 +103,7 @@
   background: black;
   z-index: 3;
   position: absolute;
+  animation: line-flicker 4000ms ease infinite;
 }
 
 #line-1 {
@@ -110,6 +111,7 @@
   right: 269px;
   transform-origin: 100% 0;
   transform: rotate(-65deg);
+  animation-delay: 0ms;
 }
 
 #line-2 {
@@ -119,6 +121,7 @@
   right: 93px;
   transform-origin: 100% 100%;
   transform: rotate(50deg);
+  animation-delay: 1530ms;
 }
 
 #line-3 {
@@ -127,6 +130,7 @@
   transform-origin: 0 0;
   transform: rotate(-35deg);
   z-index: 4;
+  animation-delay: 570ms;
 }
 
 .elem-in#line-1 {
@@ -235,6 +239,39 @@
     left: 680px;
     top: 100%;
     background: black;
+  }
+}
+
+@keyframes line-flicker {
+  0% {
+    opacity: 1;
+  }
+  19% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  21% {
+    opacity: 1;
+  }
+  59% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  61% {
+    opacity: 1;
+  }
+  79% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  81% {
+    opacity: 1;
   }
 }
 
